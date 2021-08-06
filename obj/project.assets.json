@@ -116,6 +116,18 @@
           "lib/netstandard2.0/_._": {}
         }
       },
+      "Microsoft.EntityFrameworkCore.InMemory/5.0.8": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.8"
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.EntityFrameworkCore.InMemory.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.EntityFrameworkCore.InMemory.dll": {}
+        }
+      },
       "Microsoft.EntityFrameworkCore.Relational/5.0.8": {
         "type": "package",
         "dependencies": {
@@ -1675,6 +1687,20 @@
         "lib/netstandard2.0/_._",
         "microsoft.entityframeworkcore.analyzers.5.0.8.nupkg.sha512",
         "microsoft.entityframeworkcore.analyzers.nuspec"
+      ]
+    },
+    "Microsoft.EntityFrameworkCore.InMemory/5.0.8": {
+      "sha512": "LV9/hBseBO3kZKa/MPlWfLvfKL64Q7y2ZW2euW+kcNhhAQWsl52JIQHSL1Gu3CnzfQVbGUDkusnN4OWh6k/ALw==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.inmemory/5.0.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netstandard2.1/Microsoft.EntityFrameworkCore.InMemory.dll",
+        "lib/netstandard2.1/Microsoft.EntityFrameworkCore.InMemory.xml",
+        "microsoft.entityframeworkcore.inmemory.5.0.8.nupkg.sha512",
+        "microsoft.entityframeworkcore.inmemory.nuspec"
       ]
     },
     "Microsoft.EntityFrameworkCore.Relational/5.0.8": {
@@ -5698,7 +5724,9 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Microsoft.EntityFrameworkCore.SqlServer >= *"
+      "Microsoft.EntityFrameworkCore >= 5.0.8",
+      "Microsoft.EntityFrameworkCore.InMemory >= 5.0.8",
+      "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.8"
     ]
   },
   "packageFolders": {
@@ -5707,11 +5735,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ezequiel.cardoso\\Documents\\Projetos\\.Net\\src\\Supermercado.API\\Supermercado.API.csproj",
+      "projectUniqueName": "C:\\Users\\ezequiel.cardoso\\Documents\\Projetos\\.Net\\Supermercado.API\\Supermercado.API.csproj",
       "projectName": "Supermercado.API",
-      "projectPath": "C:\\Users\\ezequiel.cardoso\\Documents\\Projetos\\.Net\\src\\Supermercado.API\\Supermercado.API.csproj",
+      "projectPath": "C:\\Users\\ezequiel.cardoso\\Documents\\Projetos\\.Net\\Supermercado.API\\Supermercado.API.csproj",
       "packagesPath": "C:\\Users\\ezequiel.cardoso\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ezequiel.cardoso\\Documents\\Projetos\\.Net\\src\\Supermercado.API\\obj\\",
+      "outputPath": "C:\\Users\\ezequiel.cardoso\\Documents\\Projetos\\.Net\\Supermercado.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ezequiel.cardoso\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -5736,9 +5764,17 @@
     "frameworks": {
       "netcoreapp3.1": {
         "dependencies": {
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[5.0.8, )"
+          },
+          "Microsoft.EntityFrameworkCore.InMemory": {
+            "target": "Package",
+            "version": "[5.0.8, )"
+          },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
-            "version": "[*, )"
+            "version": "[5.0.8, )"
           }
         },
         "imports": [

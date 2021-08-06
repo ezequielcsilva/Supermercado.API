@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wuixV17BGvAmeZC4O5oKyMxLzdwjob4AmFVPHDHHkjCO3E6MTTamBejnL44fk9SJMoW9vBfkSG2dwQiyivsD8w==",
+  "dgSpecHash": "ZRLRa2AeGTbpWutZmB+3k3jmUUaAk1HnOOMPpZRGKZO2TFrmy6U3bGovuPqnmGz7QEug6ukwRNtB/569ZfO2pw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ezequiel.cardoso\\Documents\\Projetos\\.Net\\src\\Supermercado.API\\Supermercado.API.csproj",
+  "projectFilePath": "C:\\Users\\ezequiel.cardoso\\Documents\\Projetos\\.Net\\Supermercado.API\\Supermercado.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ezequiel.cardoso\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\ezequiel.cardoso\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
@@ -10,6 +10,7 @@
     "C:\\Users\\ezequiel.cardoso\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.8\\microsoft.entityframeworkcore.5.0.8.nupkg.sha512",
     "C:\\Users\\ezequiel.cardoso\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.8\\microsoft.entityframeworkcore.abstractions.5.0.8.nupkg.sha512",
     "C:\\Users\\ezequiel.cardoso\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.8\\microsoft.entityframeworkcore.analyzers.5.0.8.nupkg.sha512",
+    "C:\\Users\\ezequiel.cardoso\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\5.0.8\\microsoft.entityframeworkcore.inmemory.5.0.8.nupkg.sha512",
     "C:\\Users\\ezequiel.cardoso\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\5.0.8\\microsoft.entityframeworkcore.relational.5.0.8.nupkg.sha512",
     "C:\\Users\\ezequiel.cardoso\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\5.0.8\\microsoft.entityframeworkcore.sqlserver.5.0.8.nupkg.sha512",
     "C:\\Users\\ezequiel.cardoso\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
